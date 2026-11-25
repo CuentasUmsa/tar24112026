@@ -1,0 +1,219 @@
+body{
+    background-color: green;
+    font-family: arial;
+    color: white;
+}
+
+header{
+    background-color: yellow;
+
+    border: 10px;
+    border-style: double;
+    border-color: red;
+
+    margin: 10px;
+    padding: 10px;
+
+    h1{
+        text-align: center;
+        color: red;
+    }
+    table{
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        tr,td{
+            background-color: green;
+            border: 10px;
+            border-style: dotted;
+            border-color: rgb(255, 0, 0);
+            border-radius: 20px;
+
+            margin: 5px;
+            padding: 5px;
+
+            width: 250px;
+            text-align: center;
+            a{
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.corp{
+    border: 10px;
+    border-style: double;
+    border-color: red;
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: yellow;
+
+    .Bie{
+        background-color: green;
+        margin: 10px;
+        padding: 10px;
+
+        border: 10px;
+        border-style: dotted;
+        border-color: rgb(255, 0, 0);
+
+        h2{
+            color: red;
+        }
+        section{
+            font-size: large;
+            display: flex;
+
+            img{
+                width: 500px;
+                margin: 10px;
+                padding: 10px;
+            }
+            nav{
+                width: 50%;
+
+                table{
+                    color: gold;
+                    width: 95%;
+                    td,tr{
+                        background-color: red;
+                        border: 5px;
+                        border-color: white;
+                        border-style: dashed;
+
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .His{
+        background-color: green;
+        margin: 10px;
+        padding: 10px;
+
+        border: 10px;
+        border-style: dotted;
+        border-color: rgb(255, 0, 0);
+        h2{
+            color: red;
+        }
+        div{
+            section{
+                background-color: red;
+                display: flex;
+
+                border: 10px;
+                border-color: gold;
+                border-style: groove;
+
+                padding: 10px;
+                margin: 10px;
+
+                nav{
+                    background-color: white;
+                    padding: 10px;
+                    margin: 10px;
+                    color: black;
+
+                    border: 10px;
+                    border-color: black;
+                    border-style: groove;
+
+                    width: 50%;
+                    img{
+                        width: 90%;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .Per{
+        background-color: green;
+        margin: 10px;
+        padding: 10px;
+
+        border: 10px;
+        border-style: dotted;
+        border-color: rgb(255, 0, 0);
+        section{
+            color: gold;
+            display: flex;
+
+            div{
+                background-color: red;
+
+                border: 10px;
+                border-style: double;
+                border-color: gold;
+
+                padding: 10px;
+                margin: 10px;
+
+                width: 33%;
+
+                text-align: center;
+
+                img{
+                    width: 90%;
+                }
+
+            }
+            .descrip{
+                background-color: red;
+
+                border: 10px;
+                border-style: double;
+                border-color: gold;
+
+                padding: 10px;
+                margin: 10px;
+
+                width: 100%;
+            }
+        }
+    }
+
+    .Reg{
+        background-color: green;
+        margin: 10px;
+        padding: 10px;
+
+        border: 10px;
+        border-style: dotted;
+        border-color: rgb(255, 0, 0);
+    }
+
+    .Com{
+        background-color: green;
+        margin: 10px;
+        padding: 10px;
+
+        border: 10px;
+        border-style: dotted;
+        border-color: rgb(255, 0, 0);
+    }
+}
+
+footer{
+    background-color: red;
+    color: gold;
+
+    border: 10px;
+    border-style: groove;
+    border-color: gold;
+
+    margin: 10px;
+    padding: 10px;
+
+    text-align: center;
+
+    
+}
